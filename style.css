@@ -84,6 +84,7 @@ h1 {
 
 .weather-input .search-btn:hover {
     background: #eeff00;
+    cursor: url('bolt.png'),auto;
 }
 
 .weather-input .location-btn {
@@ -92,6 +93,7 @@ h1 {
 
 .weather-input .location-btn:hover {
     background: #eeff00;
+    cursor: url('bolt.png'),auto;
 }
 
 .weather-data {
@@ -262,5 +264,6 @@ h1 {
 
 .navbar a:hover {
   color: #ff83de;
+  cursor: url('bolt.png'),auto;
   ;
 }
