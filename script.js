@@ -92,7 +92,7 @@ const getUserLocation = () => {
                 navigator.geolocation.getCurrentPosition(
                         (position) => {
                                 const { latitude, longitude } = position.coords;
-                                getWeatherDetails("Lat Long", latitude, longitude);
+                                getWeatherDetails("Your Location", latitude, longitude);
                         },
                         () => {
                                 alert("!");
