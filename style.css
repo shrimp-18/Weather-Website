@@ -12,9 +12,9 @@ body {
     background: #e5cdff;
 }
 
-.h1 {
+h1 {
     background: #cfa2ff00;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     padding: 18px 0;
     color: #fff;
@@ -230,7 +230,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: -1;
+  z-index: 100;
   display: flex;
   justify-content: right;
   
@@ -248,7 +248,7 @@ body {
 }
 
 .navbar a {
-  -webkit-text-stroke: 0.5px #000000;
+  -webkit-text-stroke: 0.5px #ff9df8;
   text-decoration:none ;
   color: white;
   font-weight: bold;
