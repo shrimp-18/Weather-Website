@@ -12,12 +12,14 @@ body {
     background: #e5cdff;
 }
 
-h1 {
-    background: #cfa2ff;
-    font-size: 1.75rem;
+.h1 {
+    background: #cfa2ff00;
+    font-size: 15px;
     text-align: center;
     padding: 18px 0;
     color: #fff;
+    z-index: 0;
+    top: 2%;
 }
 
 .container {
@@ -218,4 +220,45 @@ h1 {
   margin-top:auto;
   z-index: 100;
   position: relative;
+}
+.navbar {
+  z-index: 1000;
+  box-shadow: #000000;
+  background-color: #8e89f900;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  display: flex;
+  justify-content: right;
+  
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  -webkit-text-stroke: 0.5px #000000;
+  text-decoration:none ;
+  color: white;
+  font-weight: bold;
+  font-family: "Open Sans", serif;
+  font-size: 1.3rem;
+  transition: color 0.3s;
+  
+}
+
+.navbar a:hover {
+  color: #000000;
+  ;
 }
