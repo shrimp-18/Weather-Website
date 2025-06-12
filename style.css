@@ -267,3 +267,19 @@ h1 {
   cursor: url('bolt.png'),auto;
   ;
 }
+.abt {
+    height: 450px;
+}
+.abt h2 {
+ 
+ text-align: left;
+ color: #ffffff;
+ 
+}
+.abt p{
+    text-align: left;
+    color: #ffffff;
+}
+.abt a{
+    color: #0a0030;
+}
